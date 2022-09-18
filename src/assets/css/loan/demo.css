@@ -1,0 +1,23 @@
+.formDemo {
+  display: flex;
+  /* display: none; */
+  flex-wrap: wrap;
+}
+.formDemo {
+  border-bottom: solid 1px #0364a9;
+  background: #e6f4ff;
+}
+.formDemo li {
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.formDemo li:hover {
+  color: red;
+}
+
+.demoTitle {
+  color: #3092ca !important;
+  cursor: default !important;
+}
+/*  */

@@ -1,0 +1,101 @@
+/*----------------*/
+.ipt-inline {
+  display: flex;
+  align-items: center;
+}
+
+.ipt-inline span {
+  width: 12px;
+  text-align: center;
+}
+
+.ipt-l {
+  width: 50px;
+  margin-right: 0 !important;
+}
+.ipt-r {
+  width: calc(100% - 12px - 50px);
+}
+
+@media screen and (min-width: 769px) {
+}
+@media screen and (max-width: 768px) {
+}
+/*  */
+/*----------------*/
+/*090*/
+@media screen and (max-width: 768px) {
+  .ipt-inline-span {
+    display: flex;
+    align-items: center;
+  }
+
+  .ipt-inline-span .is-dash {
+    width: 12px;
+    text-align: center;
+  }
+
+  .ipt-inline-span .is-text {
+    box-sizing: border-box;
+    width: 78px;
+    text-align: right;
+    padding-right: 12px;
+  }
+
+  .ipt-l-span {
+    width: 50px;
+    margin-right: 0 !important;
+  }
+  .ipt-r-span {
+    width: calc(100% - 12px - 50px);
+  }
+}
+
+/*----------------*/
+.ml {
+  margin-left: 15px;
+}
+
+/*----------------*/
+label span {
+  transform: translateY(3px);
+}
+
+/*----------------*/
+.checkboxArea {
+  user-select: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.checkboxArea input + label {
+  margin-right: 12px;
+  text-align: left;
+  display: flex;
+}
+.checkboxArea label {
+  cursor: pointer;
+  font-size: 15px;
+}
+.checkboxArea span {
+  position: relative;
+  top: -4px;
+  /* transform: translateY(4px); */
+  /* width: auto; */
+}
+
+@media screen and (max-width: 768px) {
+  .checkboxArea {
+    margin-bottom: 20px;
+  }
+  .checkboxArea span {
+    /* transform: translateY(4px); */
+    /* width: 50%; */
+  }
+}
+
+/*----------------*/
+@media screen and (min-width: 769px) {
+  .addr + .addr {
+    margin-left: 5px;
+  }
+}
